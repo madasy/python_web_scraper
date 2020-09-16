@@ -1,0 +1,84 @@
+{
+    "apartment": [
+        {
+            "title": null,
+            "building": null,
+            "rentalgross": null,
+            "rentalgross_net": null,
+            "rooms": null,
+            "property_type": null
+        },
+        {
+            "title": "1.0 Zimmerwohnung, Seebahnstrasse, 80...",
+            "building": "Wohnsiedlung Lochergut/Seebahnstrasse 175/50446",
+            "rentalgross": "600.0",
+            "rentalgross_net": "536.0",
+            "rooms": "1.0",
+            "property_type": "AlterswohnungenI(A1/S)"
+        },
+        {
+            "title": "1.0 Zimmerwohnung, Seebahnstrasse, 80...",
+            "building": "Wohnsiedlung Lochergut/Seebahnstrasse 175/50446",
+            "rentalgross": "676.0",
+            "rentalgross_net": "612.0",
+            "rooms": "1.0",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "1 Zimmerwohnung,  Segantinistrasse, 8...",
+            "building": "Segantinistrasse 10 / 10790",
+            "rentalgross": "728.0",
+            "rentalgross_net": "663.0",
+            "rooms": "1.0",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "1.5 Zimmerwohnung, Saatlenzelg, 8050 ...",
+            "building": "Wohnsiedlung Saatlenzelg / Saatlenzelg 25 / 51298",
+            "rentalgross": "684.0",
+            "rentalgross_net": "572.0",
+            "rooms": "1.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "5.5 Zimmerwohnung, Im Isengrind, 8046...",
+            "building": "Wohnsiedlung Unteraffoltern I",
+            "rentalgross": "1398.0",
+            "rentalgross_net": "1233.0",
+            "rooms": "5.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "4.0 Zimmerwohnung, Glaubtenstrasse, 8...",
+            "building": "Wohnsiedlung Glaubten I / Glaubtenstrasse 71 / 51139",
+            "rentalgross": "1052.0",
+            "rentalgross_net": "872.0",
+            "rooms": "4.0",
+            "property_type": "FamilienwohnungenI(F1/K)"
+        },
+        {
+            "title": "3-Zimmerwohnung, Buchholzrain, 8052 Z...",
+            "building": "Wohnsiedlung Leimgrübel / Buchholzrain 1/2 / 51138",
+            "rentalgross": "750.0",
+            "rentalgross_net": "628.0",
+            "rooms": "3.0",
+            "property_type": "FamilienwohnungenI(F1/K)"
+        },
+        {
+            "title": "3 Zimmerwohnung, Rindermarkt, 8001 Zü...",
+            "building": "Rindermarkt 16 / 1298",
+            "rentalgross": "1521.0",
+            "rentalgross_net": "1359.0",
+            "rooms": "3.0",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "5.5 Zimmerwohnung, Birchstrasse, 8057...",
+            "building": "Birchstrasse  39 / 6322",
+            "rentalgross": "1948.0",
+            "rentalgross_net": "1758.0",
+            "rooms": "5.5",
+            "property_type": "Wohnungfreitragend(F)"
+        }
+    ]
+}
