@@ -121,6 +121,22 @@
             "property_type": "Wohnungfreitragend(F)"
         },
         {
+            "title": "1.5 Zimmerwohnung, Bullingerstrasse, ...",
+            "building": "Wohnsiedlung Hardau II / Bullingerstrasse 73 / 50458",
+            "rentalgross": "836.0",
+            "rentalgross_net": "679.0",
+            "rooms": "1.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "2.5 Zimmerwohnung, Norastrasse, 8004 ...",
+            "building": "Wohnsiedlung Hardau II / Norastrasse 34 / 50458",
+            "rentalgross": "1232.0",
+            "rentalgross_net": "1032.0",
+            "rooms": "2.5",
+            "property_type": "FamilienwohnungenII(F2/S)"
+        },
+        {
             "title": "                                                                                                                                                                                                                                        3.5 Zimmerwohnung, Schipfe, 8001 Zürich                                                                                                                                    ",
             "building": "Schipfe 26 / 1808",
             "rentalgross": "1739.0",
@@ -134,22 +150,6 @@
             "rentalgross": "1529.0",
             "rentalgross_net": "1379.0",
             "rooms": "4.0",
-            "property_type": "Wohnungfreitragend(F)"
-        },
-        {
-            "title": "2.5 Zimmerwohnung, Norastrasse, 8004 ...",
-            "building": "Wohnsiedlung Hardau II / Norastrasse 34 / 50458",
-            "rentalgross": "1232.0",
-            "rentalgross_net": "1032.0",
-            "rooms": "2.5",
-            "property_type": "FamilienwohnungenII(F2/S)"
-        },
-        {
-            "title": "1.5 Zimmerwohnung, Bullingerstrasse, ...",
-            "building": "Wohnsiedlung Hardau II / Bullingerstrasse 73 / 50458",
-            "rentalgross": "836.0",
-            "rentalgross_net": "679.0",
-            "rooms": "1.5",
             "property_type": "Wohnungfreitragend(F)"
         }
     ]

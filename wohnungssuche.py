@@ -2,6 +2,10 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
 URL = 'https://www.vermietungen.stadt-zuerich.ch'
 response = requests.get(URL)
 
@@ -63,8 +67,41 @@ for wohnung in soup.findAll('tr'):
                 data = json.load(json_file)
                 temp = data['apartment']
                 temp.append(apartment)
+                print("Added a new apartment to the database")
 
             write_json(data)
+
+            gmail_user = 'xxxxxxxxxxxxxxxx'
+            gmail_app_password = 'xxxxxxxxxxxxxxx'
+            recipient = 'xxxxxxxxxxxxxxx'
+
+            message = f"""
+            Good morning\n 
+            
+            New advertisements matching your search criteria have just been published on vermietungen.stadt-zuerich.ch\n
+            
+            <{apartment}>
+            
+            """
+
+            msg = MIMEMultipart()
+            msg['From'] = f'"xxxxxxxxxxxx" <{gmail_user}>'
+            msg['To'] = recipient
+            msg['Subject'] = "A new apartment got listed..."
+            msg.attach(MIMEText(message))
+
+            try:
+                mailServer = smtplib.SMTP('smtp.gmail.com', 587)
+                mailServer.ehlo()
+                mailServer.starttls()
+                mailServer.ehlo()
+                mailServer.login(gmail_user, gmail_app_password)
+                mailServer.sendmail(gmail_user, recipient, msg.as_string())
+                mailServer.close()
+                print("Successfully sent email")
+
+            except smtplib.SMTPException:
+                print("Error: unable to send email")
 
 
 
