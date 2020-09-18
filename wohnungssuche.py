@@ -48,18 +48,23 @@ for wohnung in soup.findAll('tr'):
             'property_type': property_type_elem
     }
 
+    with open('data.json') as localdb:
+        testdata = json.load(localdb)
+        testdataapartment = testdata['apartment']
+        if apartment in testdataapartment:
+            print("Apartment already exists in the local database")
+        else:
+            def write_json(data, filename='data.json'):
+                with open(filename, 'w', encoding='utf-8') as f:
+                    json.dump(data, f,ensure_ascii=False, indent=4)
 
-    def write_json(data, filename='data.json'):
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(data, f,ensure_ascii=False, indent=4)
 
+            with open('data.json') as json_file:
+                data = json.load(json_file)
+                temp = data['apartment']
+                temp.append(apartment)
 
-    with open('data.json') as json_file:
-        data = json.load(json_file)
-        temp = data['apartment']
-        temp.append(apartment)
-
-    write_json(data)
+            write_json(data)
 
 
 

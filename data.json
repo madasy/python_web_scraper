@@ -9,22 +9,6 @@
             "property_type": null
         },
         {
-            "title": "1.0 Zimmerwohnung, Seebahnstrasse, 80...",
-            "building": "Wohnsiedlung Lochergut/Seebahnstrasse 175/50446",
-            "rentalgross": "600.0",
-            "rentalgross_net": "536.0",
-            "rooms": "1.0",
-            "property_type": "AlterswohnungenI(A1/S)"
-        },
-        {
-            "title": "1.0 Zimmerwohnung, Seebahnstrasse, 80...",
-            "building": "Wohnsiedlung Lochergut/Seebahnstrasse 175/50446",
-            "rentalgross": "676.0",
-            "rentalgross_net": "612.0",
-            "rooms": "1.0",
-            "property_type": "Wohnungfreitragend(F)"
-        },
-        {
             "title": "1 Zimmerwohnung,  Segantinistrasse, 8...",
             "building": "Segantinistrasse 10 / 10790",
             "rentalgross": "728.0",
@@ -33,43 +17,11 @@
             "property_type": "Wohnungfreitragend(F)"
         },
         {
-            "title": "1.5 Zimmerwohnung, Saatlenzelg, 8050 ...",
-            "building": "Wohnsiedlung Saatlenzelg / Saatlenzelg 25 / 51298",
-            "rentalgross": "684.0",
-            "rentalgross_net": "572.0",
-            "rooms": "1.5",
-            "property_type": "Wohnungfreitragend(F)"
-        },
-        {
-            "title": "5.5 Zimmerwohnung, Im Isengrind, 8046...",
-            "building": "Wohnsiedlung Unteraffoltern I",
-            "rentalgross": "1398.0",
-            "rentalgross_net": "1233.0",
-            "rooms": "5.5",
-            "property_type": "Wohnungfreitragend(F)"
-        },
-        {
-            "title": "4.0 Zimmerwohnung, Glaubtenstrasse, 8...",
-            "building": "Wohnsiedlung Glaubten I / Glaubtenstrasse 71 / 51139",
-            "rentalgross": "1052.0",
-            "rentalgross_net": "872.0",
+            "title": "4-Zimmerwohnung, Seebacherstrasse 260...",
+            "building": "Seebacherstrasse 260 / 11345",
+            "rentalgross": "1791.0",
+            "rentalgross_net": "1579.0",
             "rooms": "4.0",
-            "property_type": "FamilienwohnungenI(F1/K)"
-        },
-        {
-            "title": "3-Zimmerwohnung, Buchholzrain, 8052 Z...",
-            "building": "Wohnsiedlung Leimgrübel / Buchholzrain 1/2 / 51138",
-            "rentalgross": "750.0",
-            "rentalgross_net": "628.0",
-            "rooms": "3.0",
-            "property_type": "FamilienwohnungenI(F1/K)"
-        },
-        {
-            "title": "3 Zimmerwohnung, Rindermarkt, 8001 Zü...",
-            "building": "Rindermarkt 16 / 1298",
-            "rentalgross": "1521.0",
-            "rentalgross_net": "1359.0",
-            "rooms": "3.0",
             "property_type": "Wohnungfreitragend(F)"
         },
         {
@@ -78,6 +30,126 @@
             "rentalgross": "1948.0",
             "rentalgross_net": "1758.0",
             "rooms": "5.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "4-Zimmerwohnung, Seebacherstrasse, 80...",
+            "building": "Seebacherstrasse 260 / 11345",
+            "rentalgross": "1791.0",
+            "rentalgross_net": "1579.0",
+            "rooms": "4.0",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "1.0 Zimmerwohnung, Seebahnstrasse, 80...",
+            "building": "Wohnsiedlung Lochergut/Seebahnstrasse 175/50446",
+            "rentalgross": "605.0",
+            "rentalgross_net": "541.0",
+            "rooms": "1.0",
+            "property_type": "AlterswohnungenI(A1/S)"
+        },
+        {
+            "title": "4.5 Zimmerwohnung, Hönggerstrasse, 80...",
+            "building": "Wohnsiedlung Sydefädeli / Hönggerstrasse 133 / 51084",
+            "rentalgross": "1557.0",
+            "rentalgross_net": "1402.0",
+            "rooms": "4.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "3.5 Zimmerwohnung, Röschibachstrasse,...",
+            "building": "Röschibachstrasse 24 / 10093",
+            "rentalgross": "1714.0",
+            "rentalgross_net": "1614.0",
+            "rooms": "3.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "1.0 Zimmerwohnung, Seebahnstrasse, 80...",
+            "building": "Wohnsiedlung Lochergut/Seebahnstrasse 175/50446",
+            "rentalgross": "652.0",
+            "rentalgross_net": "589.0",
+            "rooms": "1.0",
+            "property_type": "KleinwohnungenII(K2/S)RG"
+        },
+        {
+            "title": "2.5 Zimmerwohnung, Opfikonstrasse, 80...",
+            "building": "Wohnsiedlung Glatt II / Opfikonstrasse 149 / 51295",
+            "rentalgross": "942.0",
+            "rentalgross_net": "755.0",
+            "rooms": "2.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "3 Zimmerwohnung, Im Isengrind, 8046 Z...",
+            "building": "Wohnsiedlung Unteraffoltern II / Im Isengrind 35 / 51154",
+            "rentalgross": "1088.0",
+            "rentalgross_net": "981.0",
+            "rooms": "3.0",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "4 Zimmer-Maisonette-Wohnung, Im Iseng...",
+            "building": "Wohnsiedlung Unteraffoltern II / Im Isengrind 35 / 51154",
+            "rentalgross": "1192.0",
+            "rentalgross_net": "1031.0",
+            "rooms": "4.0",
+            "property_type": "FamilienwohnungenI(F1/K)"
+        },
+        {
+            "title": "1.5 Zimmerwohnung, Döltschihalde, 805...",
+            "building": "Wohnsiedlung Döltschihalde / Döltschihalde 26 / 50360",
+            "rentalgross": "767.0",
+            "rentalgross_net": "675.0",
+            "rooms": "1.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "3.5 Zimmerwohnung, Glaubtenstrasse, 8...",
+            "building": "Wohnsiedlung Glaubten III / Glaubtenstrasse 116 / 51141",
+            "rentalgross": "1080.0",
+            "rentalgross_net": "957.0",
+            "rooms": "3.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "3.5 Zimmerwohnung, Lindenhofstrasse, ...",
+            "building": "Lindenhofstrasse / 1847",
+            "rentalgross": "1773.0",
+            "rentalgross_net": "1683.0",
+            "rooms": "3.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "                                                                                                                                                                                                                                        3.5 Zimmerwohnung, Schipfe, 8001 Zürich                                                                                                                                    ",
+            "building": "Schipfe 26 / 1808",
+            "rentalgross": "1739.0",
+            "rentalgross_net": "1619.0",
+            "rooms": "3.5",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "4 Zimmerwohnung, Witikonerstrasse, 80...",
+            "building": "Witikonerstrasse 443 / 7780",
+            "rentalgross": "1529.0",
+            "rentalgross_net": "1379.0",
+            "rooms": "4.0",
+            "property_type": "Wohnungfreitragend(F)"
+        },
+        {
+            "title": "2.5 Zimmerwohnung, Norastrasse, 8004 ...",
+            "building": "Wohnsiedlung Hardau II / Norastrasse 34 / 50458",
+            "rentalgross": "1232.0",
+            "rentalgross_net": "1032.0",
+            "rooms": "2.5",
+            "property_type": "FamilienwohnungenII(F2/S)"
+        },
+        {
+            "title": "1.5 Zimmerwohnung, Bullingerstrasse, ...",
+            "building": "Wohnsiedlung Hardau II / Bullingerstrasse 73 / 50458",
+            "rentalgross": "836.0",
+            "rentalgross_net": "679.0",
+            "rooms": "1.5",
             "property_type": "Wohnungfreitragend(F)"
         }
     ]
